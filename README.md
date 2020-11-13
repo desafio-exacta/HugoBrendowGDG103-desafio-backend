@@ -14,7 +14,7 @@ Projeto desenvolvido utilizando as seguintes tecnologias:
 ### Banco de Dados utilizado
   - MySQL
 
-## Para execução do projeto, é necessário uma instância de banco de dados do MySQL, abaixo está o comando a ser executado caso utilize o Docker
+### Para execução do projeto, é necessário uma instância de banco de dados do MySQL, abaixo está o comando a ser executado caso utilize o Docker
 
 ```sh
 docker run -d -p 3306:3306 --name=mysql -e MYSQL_ROOT_PASSWORD=desafio2020 -e MYSQL_DATABASE=desafio -e MYSQL_ROOT_HOST=% mysql:latest \
