@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+  
+  <changeSet author="hugo.silva" id="1" runOnChange="true" runAlways="false" failOnError="false">
+    <comment>01 - Criando tabela de gasto</comment>
+    <sqlFile path="../scripts/11_2020/01_criando_gasto.sql" relativeToChangelogFile="true" splitStatements="true" dbms="mysql" encoding="utf8"/>
+  </changeSet>
+  
+  <changeSet author="hugo.silva" id="2" runOnChange="true" runAlways="false" failOnError="false">
+    <comment>02 - Criando tabela de tag</comment>
+    <sqlFile path="../scripts/11_2020/02_criando_tag.sql" relativeToChangelogFile="true" splitStatements="true" dbms="mysql" encoding="utf8"/>
+  </changeSet>
+</databaseChangeLog>
