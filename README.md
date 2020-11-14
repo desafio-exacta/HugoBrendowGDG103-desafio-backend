@@ -22,3 +22,11 @@ docker run -d -p 3306:3306 --name=mysql -e MYSQL_ROOT_PASSWORD=desafio2020 -e MY
 ```
 
 Após inicializado o container, executar o projeto do springboot.
+
+## Swagger
+
+A Documentação das rotas estão na url abaixo após projeto inicializado:
+
+```sh
+http://localhost:8080/swagger-ui.html#/
+```
