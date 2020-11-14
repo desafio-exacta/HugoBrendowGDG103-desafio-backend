@@ -1,4 +1,4 @@
-CREATE TABLE Tag (
+CREATE TABLE tag (
 	id int NOT NULL AUTO_INCREMENT,
 	gasto_tag int,
 	descricao varchar(255),
